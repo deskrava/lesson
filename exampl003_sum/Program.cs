@@ -1,5 +1,7 @@
-﻿int namberA = 22;
-int namberB = 5;
+﻿int namberA = new Random().Next(1, 10);
+Console.WriteLine(namberA);
+int namberB = new Random().Next(1, 10);
+Console.WriteLine(namberB);
 int resalt = namberA + namberB;
 Console.WriteLine(resalt);
 
